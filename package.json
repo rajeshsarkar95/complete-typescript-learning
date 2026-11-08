@@ -1,0 +1,16 @@
+{
+  "name": "complete-typescript-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner to advanced TypeScript examples and projects",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "dev": "tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
