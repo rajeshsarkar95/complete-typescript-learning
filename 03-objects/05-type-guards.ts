@@ -1,5 +1,7 @@
-type Cat = { kind: "cat"; meow: () => void };
+
+type Cat = {kind:"cat";meow:() => void };
 type Dog = { kind: "dog"; bark: () => void };
+
 type Pet = Cat | Dog;
 
 function handlePet(pet: Pet): void {
