@@ -5,4 +5,5 @@ enum Direction {
   Right = "RIGHT"
 }
 const move: Direction = Direction.Right;
+
 console.log(move);
