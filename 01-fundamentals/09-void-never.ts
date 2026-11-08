@@ -8,3 +8,4 @@ function fail(message: string): never {
 
 logMessage("Learning TypeScript");
 // fail("Stop");
+
