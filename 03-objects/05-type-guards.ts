@@ -8,4 +8,4 @@ function handlePet(pet: Pet): void {
   if (pet.kind === "cat") pet.meow();
   else pet.bark();
 }
-handlePet({ kind: "dog", bark: () => console.log("Woof") });
+handlePet({ kind: "dog", bark: () => console.log("Woof")});

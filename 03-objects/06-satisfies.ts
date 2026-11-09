@@ -1,4 +1,5 @@
 type RouteName = "home" | "profile";
+
 const routes = {
   home: "/",
   profile: "/profile"
