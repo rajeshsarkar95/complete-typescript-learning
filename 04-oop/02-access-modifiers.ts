@@ -6,7 +6,7 @@ class BankAccount {
     if (amount <= 0) throw new Error("Amount must be positive");
     this.balance += amount;
   }
-  getBalance(): number { return this.balance; }
+  getBalance(): number {return this.balance;}
 }
 const account = new BankAccount("Rajesh");
 
