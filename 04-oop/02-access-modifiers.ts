@@ -1,3 +1,4 @@
+
 class BankAccount {
   private balance = 0;
   constructor(public readonly owner: string) {}
@@ -8,5 +9,7 @@ class BankAccount {
   getBalance(): number { return this.balance; }
 }
 const account = new BankAccount("Rajesh");
+
 account.deposit(500);
+
 console.log(account.getBalance());
