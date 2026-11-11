@@ -6,5 +6,7 @@ function printId(id: string | number):void{
     console.log(id.toFixed(0));
   }
 }
+
 printId("user-1");
+
 printId(42);

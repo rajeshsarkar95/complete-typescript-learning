@@ -1,3 +1,4 @@
+
 interface Developer {
   name: string;
   skills: string[];
@@ -9,4 +10,5 @@ const developer:Developer = {
   skills:["React","Node.js","TypeScript"],
   experienceYears:2
 };
+
 console.log(developer);
