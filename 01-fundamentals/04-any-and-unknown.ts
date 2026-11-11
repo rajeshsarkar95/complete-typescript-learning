@@ -21,5 +21,17 @@ console.log(value);
 // Why use any?
 // When the data type is unknown and you want to bypass type checking
 // When migrating JavaScript code to TypeScript.
-// When working with dynamic data (although unknown is safer).
+// When working with dynamic data (although unknown is safer)
 
+// unknown TypeScript
+// Definition: unknown is a TypeScript type that allows a variable to store any type of value, but requires type checking before performing operations on that value.
+
+// In simple words: You can store anything, but you must check its type before using it.
+
+let values:unknown = "hello"
+value = 100;
+value = true;
+// Type checking
+if(typeof value === "string"){
+  console.log(value.toUpperCase());
+} 
