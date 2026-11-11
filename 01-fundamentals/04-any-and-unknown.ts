@@ -6,5 +6,5 @@ let safeValue: unknown = "hello";
 
 if (typeof safeValue === "string"){
   console.log(safeValue.toUpperCase());
-}
-    /.,m, m,. v                             .
+} 
+                        
