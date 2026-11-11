@@ -18,4 +18,8 @@ value = "string"
 value = true;
 value = {name:"string"};
 console.log(value);
+// Why use any?
+// When the data type is unknown and you want to bypass type checking
+// When migrating JavaScript code to TypeScript.
+// When working with dynamic data (although unknown is safer).
 
