@@ -1,3 +1,5 @@
+import { log } from "node:console";
+
 function add(a:number,b:number):number {
   return a + b;
 }
@@ -9,8 +11,16 @@ function calculateTotal(
 ):number{
   return price * quentity;
 }
-
 calculateTotal(100,5);
+
+// Type annotations
+let username:string = "Rajesh";
+let age:number     = 21;
+let isDeveloper:boolean = true;
+let Skills:string[] = ["React","Nodejs","Mongodb"];
+console.log(username,age,isDeveloper,Skills);
+
+
 
 
 
