@@ -25,5 +25,21 @@ const devesadd:address = {
 }
 console.log(developer,devesadd);
 
+// Because TypeScript already infers string.
+// when to use type iterrence when typescript can clearly undestand the variable types. Explit
+// annotation are usefull for function parameters,public Apis,and apis complex data staturus
+
+// String types
+let firstName:string = "Rajesh sarkar";
+let addresss:string   = "Raja colony";
+let messsge:string    = "hello this rajesh sarkar";
+console.log(firstName,addresss,messsge);
+
+
+
+
+
+
+
 
 
