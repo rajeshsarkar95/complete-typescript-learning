@@ -35,6 +35,18 @@ let addresss:string   = "Raja colony";
 let messsge:string    = "hello this rajesh sarkar";
 console.log(firstName,addresss,messsge);
 
+// 4.4 Number type
+let age:number = 21;
+let salary:number = 30000;
+let parsetage:number  = 100;
+
+// boolean types
+let isLoggedIn:boolean  = true;
+let isAdmin:boolean    = false;
+
+let numbers:number[] = [10,20,30,40,50,60];
+console.log(numbers);
+ 
 
 
 
