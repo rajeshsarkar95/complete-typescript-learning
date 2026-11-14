@@ -44,9 +44,33 @@ let parsetage:number  = 100;
 let isLoggedIn:boolean  = true;
 let isAdmin:boolean    = false;
 
-let numbers:number[] = [10,20,30,40,50,60];
-console.log(numbers);
- 
+let numberss:number[] = [10,20,30,40,50,60];
+console.log(numberss);
+// Alternative syntax:
+let numbers:Array<number> = [10,20,30,40];
+
+// Array of objects
+type Student = {
+    name: string;
+    age: number;
+};
+
+const students: Student[] = [
+    {
+        name: "Rajesh",
+        age: 21
+    },
+    {
+        name: "Amit",
+        age: 22
+    }
+];
+console.log(students);
+
+
+
+
+
 
 
 
