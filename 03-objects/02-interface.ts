@@ -67,6 +67,31 @@ const students: Student[] = [
 ];
 console.log(students);
 
+// real world use case
+// When api response,student lists,product lists,users collection and dashbord data;
+
+
+// Tuples
+// A tuple is an arrays with a fixit staructrures and specifi types at each postions
+let user:[number,string,boolean]
+user = [1,"Rajesh",true]
+// Real world situation:When you need fixed staructures,such as an ID, username and active status
+// Enums
+// Enums define a set  of named constant
+
+enum  USerRole{
+     ADMIN = "ADMIN",
+     STUDENT = "STUDENT",
+     TEACHAR = "TEACHER",
+}
+let role:USerRole = USerRole.ADMIN;
+console.log(role);
+
+
+
+
+
+
 
 
 
