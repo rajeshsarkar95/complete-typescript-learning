@@ -20,6 +20,22 @@ let isDeveloper:boolean = true;
 let Skills:string[] = ["React","Nodejs","Mongodb"];
 console.log(username,age,isDeveloper,Skills);
 
+// syntext
+// let variableName:dataType = value
+// Common type
+// string      "Rajesh";
+// number      100-200;
+// boolean     true or false;
+// null        null
+// undefined   undefined
+// bigint      100n
+// symbol      Symbol("id");
+// any         Any value 
+// unknown     An initially unkonwn value
+// never       A value that never occur
+
+
+
 
 
 
