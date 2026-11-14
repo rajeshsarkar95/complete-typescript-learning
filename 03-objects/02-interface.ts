@@ -1,3 +1,5 @@
+import { log } from "console";
+
 //  type interference typescriot automacally udestands the type based on the assinment value
 interface Developer {
   name: string;
@@ -86,6 +88,21 @@ enum  USerRole{
 }
 let role:USerRole = USerRole.ADMIN;
 console.log(role);
+
+// unknown
+// unknown can store any value,but you must check its type before useing it 
+let data:unknown = "Rajesh";
+if(typeof data === "string"){
+     console.log(data.toUpperCase);
+}
+
+
+
+
+
+
+
+
 
 
 
